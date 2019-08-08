@@ -1,5 +1,5 @@
 {
-  "name": "wc-admin",
+  "name": "vuesax-vuejs-dashboard-admin-template",
   "version": "2.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,10 @@
     "algoliasearch": "^3.32.0",
     "apexcharts": "^3.6.5",
     "auth0-js": "^9.10.1",
-    "axios": "^0.18.1",
+    "axios": "^0.18.0",
     "chart.js": "^2.7.3",
     "core-js": "^2.5.7",
+    "firebase": "^5.9.1",
     "instantsearch.css": "^7.1.1",
     "material-icons": "^0.3.0",
     "perfect-scrollbar": "^1.4.0",

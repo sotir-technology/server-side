@@ -2,15 +2,16 @@
     File Name: Main.vue
     Description: Main layout
     ----------------------------------------------------------------------------------------
-    Item Name: RSC Byte Limited
-      Author: Revelation Ben
-    Author URL: http://rscbyte.com
+    Item Name: Vuesax Admin - VueJS Dashboard Admin Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
 ========================================================================================== -->
 
 
 <template>
     <div class="layout--main" :class="[navbarClasses, footerClasses, {'app-page': isAppPage}]">
-<!--        <vx-tour :steps="steps" v-if="!disableThemeTour" />-->
+        <vx-tour :steps="steps" v-if="!disableThemeTour" />
+
         <the-customizer
             @updateNavbar="updateNavbar"
             @updateNavbarColor="updateNavbarColor"
@@ -24,7 +25,7 @@
             :hideScrollToTop="hideScrollToTop"
             @toggleHideScrollToTop="toggleHideScrollToTop"
             />
-        <vx-sidebar :sidebarItems="sidebarItems" title="W&C Admin" parent=".layout--main" />
+        <vx-sidebar :sidebarItems="sidebarItems" :logo="require('@/assets/images/logo/logo.png')" title="Vuesax" parent=".layout--main" />
 
         <div id="content-area" :class="[contentAreaClass, {'show-overlay': bodyOverlay}]">
 
@@ -79,7 +80,7 @@ import TheFooter from '../components/TheFooter.vue';
 import themeConfig from '@/../themeConfig.js';
 import sidebarItems from "@/layouts/components/vx-sidebar/sidebarItems.js";
 import BackToTop from 'vue-backtotop'
-const VxTour = () => import('@/components/VxTour.vue');
+const VxTour = () => import('@/components/VxTour.vue')
 
 export default {
     data() {
@@ -191,13 +192,15 @@ export default {
         },
         setSidebarWidth() {
             if (this.windowWidth < 1200) {
-
+                this.$store.commit('TOGGLE_IS_SIDEBAR_ACTIVE', false)
+                this.$store.dispatch('updateSidebarWidth', 'no-sidebar')
+                this.disableThemeTour = true;
             }
             else if(this.windowWidth < 1200) {
-
+                this.$store.dispatch('updateSidebarWidth', 'reduced')
             }
             else {
-
+                this.$store.commit('TOGGLE_IS_SIDEBAR_ACTIVE', true)
             }
         },
         toggleHideScrollToTop(val) {

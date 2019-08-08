@@ -31,6 +31,10 @@ import InstantSearch from 'vue-instantsearch';
 Vue.use(InstantSearch);
 
 
+// Firebase
+import '@/firebase/firebaseConfig'
+
+
 // Auth0 Plugin
 import AuthPlugin from "./plugins/auth";
 Vue.use(AuthPlugin);

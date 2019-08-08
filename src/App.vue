@@ -19,11 +19,13 @@ import themeConfig from '@/../themeConfig.js'
 
 export default {
     watch: {
-
+        '$store.state.theme'(val) {
+            this.toggleClassInBody(val);
+        }
     },
     async created() {
       try {
-      //
+        await this.$auth.renewTokens();
       } catch (e) {
         console.log(e);
       }
