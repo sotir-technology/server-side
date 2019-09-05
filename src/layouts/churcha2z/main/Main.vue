@@ -10,7 +10,7 @@
 
 <template>
     <div class="layout--main" :class="[navbarClasses, footerClasses, {'app-page': isAppPage}]">
-<!--        <vx-tour :steps="steps" v-if="!disableThemeTour" />-->
+        <vx-tour :steps="steps" v-if="!disableThemeTour" />
 
         <the-customizer
             @updateNavbar="updateNavbar"

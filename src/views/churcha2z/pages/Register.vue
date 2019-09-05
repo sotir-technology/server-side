@@ -29,17 +29,17 @@
                                         data-vv-validate-on="blur"
                                         label-placeholder="Username"
                                         name="username"
-                                        placeholder="Username"
-                                        v-model="username"
+                                        placeholder="Church"
+                                        v-model="church_name"
                                         class="w-full" />
-                                    <span class="text-danger text-sm">{{ errors.first('username') }}</span>
+                                    <span class="text-danger text-sm">{{ errors.first('church_name') }}</span>
 
                                     <vs-input
                                         v-validate="'required|email'"
                                         data-vv-validate-on="blur"
                                         name="email"
                                         type="email"
-                                        label-placeholder="Email"
+                                        label-placeholder="Church Email"
                                         placeholder="Email"
                                         v-model="email"
                                         class="w-full mt-6" />
@@ -70,7 +70,7 @@
                                     <span class="text-danger text-sm">{{ errors.first('confirm_password') }}</span>
 
                                     <vs-checkbox v-model="isTermsConditionAccepted" class="mt-6">I accept the terms & conditions.</vs-checkbox>
-                                    <vs-button  type="border" to="/pages/login" class="mt-6">Login</vs-button>
+                                    <vs-button  type="border" to="/church/login" class="mt-6">Login</vs-button>
                                     <vs-button class="float-right mt-6" @click="registerUser" :disabled="!validateForm">Register</vs-button>
                                 </div>
                             </div>

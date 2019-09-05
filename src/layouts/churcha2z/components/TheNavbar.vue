@@ -15,7 +15,7 @@
 		<vs-navbar class="vx-navbar navbar-custom" :color="navbarColor" :class="classObj">
 
 			<!-- SM - OPEN SIDEBAR BUTTON -->
-			<feather-icon class="sm:inline-flex xl:hidden cursor-pointer mr-1" icon="MenuIcon" @click.stop="showSidebar"></feather-icon>
+			<feather-icon class="sm:inline-flex xl:hidden cursor-pointer mr-1" icon="MenuIcon" @click.stop="showSidebar">OPEN</feather-icon>
 
 			<template v-if="breakpoint != 'md'">
 				<!-- STARRED PAGES - FIRST 10 -->
@@ -30,21 +30,21 @@
 				</ul>
 
 				<!-- STARRED PAGES MORE -->
-				<div class="vx-navbar__starred-pages--more-dropdown" v-if="starredPagesMore.length">
-					<vs-dropdown vs-custom-content vs-trigger-click>
-						<feather-icon icon="ChevronDownIcon" svgClasses="h-4 w-4" class="cursor-pointer p-2"></feather-icon>
-						<vs-dropdown-menu>
-							<ul class="vx-navbar__starred-pages-more--list">
-								<draggable v-model="starredPagesMore" :group="{name: 'pinList'}" class="cursor-move">
-									<li class="starred-page--more flex items-center cursor-pointer" v-for="page in starredPagesMore" :key="page.url" @click="$router.push(page.url)">
-										<feather-icon svgClasses="h-5 w-5" class="ml-2 mr-1" :icon="page.labelIcon"></feather-icon>
-										<span class="px-2 pt-2 pb-1">{{ page.label }}</span>
-									</li>
-								</draggable>
-							</ul>
-						</vs-dropdown-menu>
-					</vs-dropdown>
-				</div>
+<!--				<div class="vx-navbar__starred-pages&#45;&#45;more-dropdown" v-if="starredPagesMore.length">-->
+<!--					<vs-dropdown vs-custom-content vs-trigger-click>-->
+<!--						<feather-icon icon="ChevronDownIcon" svgClasses="h-4 w-4" class="cursor-pointer p-2"></feather-icon>-->
+<!--						<vs-dropdown-menu>-->
+<!--							<ul class="vx-navbar__starred-pages-more&#45;&#45;list">-->
+<!--								<draggable v-model="starredPagesMore" :group="{name: 'pinList'}" class="cursor-move">-->
+<!--									<li class="starred-page&#45;&#45;more flex items-center cursor-pointer" v-for="page in starredPagesMore" :key="page.url" @click="$router.push(page.url)">-->
+<!--										<feather-icon svgClasses="h-5 w-5" class="ml-2 mr-1" :icon="page.labelIcon"></feather-icon>-->
+<!--										<span class="px-2 pt-2 pb-1">{{ page.label }}</span>-->
+<!--									</li>-->
+<!--								</draggable>-->
+<!--							</ul>-->
+<!--						</vs-dropdown-menu>-->
+<!--					</vs-dropdown>-->
+<!--				</div>-->
 
 				<div class="bookmark-container">
 					<feather-icon icon="StarIcon" :svgClasses="['stoke-current text-warning', {'text-white': navbarColor != '#fff'}]" class="cursor-pointer p-2" @click.stop="showBookmarkPagesDropdown = !showBookmarkPagesDropdown" />
@@ -77,72 +77,6 @@
             </div>
             <feather-icon icon="SearchIcon" @click="showFullSearch = true" class="cursor-pointer navbar-fuzzy-search ml-4"></feather-icon>
 
-            <!-- CART DROPDOWN -->
-            <vs-dropdown vs-custom-content vs-trigger-click class="cursor-pointer">
-                <feather-icon icon="ShoppingCartIcon" class="cursor-pointer ml-4 mr-6 mt-1" :badge="cartItems.length"></feather-icon>
-                <vs-dropdown-menu class="cart-dropdown" :class="{'dropdown-custom': cartItems.length}">
-
-                    <!-- IF CART HAVE ITEMS: HEADER -->
-                    <template v-if="cartItems.length">
-                        <div class="notification-header text-center p-5 bg-primary text-white">
-                            <h3 class="text-white">{{ cartItems.length }} Item<span v-show="cartItems.length > 1">s</span></h3>
-                            <p class="opacity-75">In Your Cart</p>
-                        </div>
-
-                        <!-- CART ITEMS -->
-                        <VuePerfectScrollbar ref="mainSidebarPs" class="scroll-area--cart-items-dropdowm p-0 mb-10" :settings="settings">
-                        <ul class="bordered-items">
-                            <li v-for="item in cartItems" :key="item.objectID" class="vx-row no-gutter cart-item cursor-pointer">
-
-                                <!-- IMG COL -->
-                                <div class="vx-col w-1/5 item-img-container bg-white flex items-center justify-center">
-                                    <img :src="item.image" alt="item" class="cart-dropdown-item-img p-4">
-                                </div>
-
-                                <!-- INFO COL -->
-                                <div class="vx-col w-4/5 pr-4 pl-2 py-4 flex flex-col justify-center">
-                                    <span class="font-medium block cart-item-title truncate">{{ item.name }}</span>
-                                    <small class="truncate mb-2">{{ item.description }}</small>
-                                    <div class="flex items-center justify-between">
-                                        <span class="text-sm font-medium">{{ item.quantity }} <small>x</small> ${{ item.price }}</span>
-                                        <feather-icon icon="XIcon" svgClasses="h-4 w-4 cursor-pointer text-danger" class="hover:text-danger" @click.stop="removeItemFromCart(item)" />
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        </VuePerfectScrollbar>
-                        <div
-                            class="
-                                checkout-footer
-                                fixed
-                                pin-b
-                                rounded-b-lg
-                                text-primary
-                                font-semibold
-                                w-full
-                                p-2
-                                text-center
-                                border
-                                border-b-0
-                                border-l-0
-                                border-r-0
-                                border-solid
-                                border-grey-light
-                                cursor-pointer"
-                            @click="$router.push('/apps/eCommerce/checkout')">
-                            <span class="flex items-center justify-center">
-                              <feather-icon icon="ShoppingCartIcon" svgClasses="h-4 w-4"></feather-icon>
-                              <span class="ml-2">Checkout</span>
-                            </span>
-                        </div>
-                    </template>
-
-                    <!-- IF CART IS EMPTY -->
-                    <template v-else>
-                        <p class="p-4">Your Cart Is Empty.</p>
-                    </template>
-                </vs-dropdown-menu>
-            </vs-dropdown>
 
 			<!-- NOTIFICATIONS -->
 			<vs-dropdown vs-custom-content vs-trigger-click class="cursor-pointer">
@@ -156,16 +90,16 @@
 
 					<VuePerfectScrollbar ref="mainSidebarPs" class="scroll-area--nofications-dropdown p-0 mb-10" :settings="settings">
 					<ul class="bordered-items">
-						<li v-for="ntf in unreadNotifications" :key="ntf.index" class="flex justify-between px-4 py-4 notification cursor-pointer">
-							<div class="flex items-start">
-								<feather-icon :icon="ntf.icon" :svgClasses="[`text-${ntf.category}`, 'stroke-current mr-1 h-6 w-6']"></feather-icon>
-								<div class="mx-2">
-									<span class="font-medium block notification-title" :class="[`text-${ntf.category}`]">{{ ntf.title }}</span>
-									<small>{{ ntf.msg }}</small>
-								</div>
-							</div>
-							<small class="mt-1 whitespace-no-wrap">{{ elapsedTime(ntf.time) }}</small>
-						</li>
+<!--						<li v-for="ntf in unreadNotifications" :key="ntf.index" class="flex justify-between px-4 py-4 notification cursor-pointer">-->
+<!--							<div class="flex items-start">-->
+<!--								<feather-icon :icon="ntf.icon" :svgClasses="[`text-${ntf.category}`, 'stroke-current mr-1 h-6 w-6']"></feather-icon>-->
+<!--								<div class="mx-2">-->
+<!--									<span class="font-medium block notification-title" :class="[`text-${ntf.category}`]">{{ ntf.title }}</span>-->
+<!--									<small>{{ ntf.msg }}</small>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							<small class="mt-1 whitespace-no-wrap">{{ elapsedTime(ntf.time) }}</small>-->
+<!--						</li>-->
 					</ul>
 					</VuePerfectScrollbar>
                     <div class="
@@ -220,8 +154,7 @@
 							<li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="$router.push('/pages/profile')"><feather-icon icon="UserIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Profile</span></li>
 							<li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="$router.push('/apps/email')"><feather-icon icon="MailIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Inbox</span></li>
 							<li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="$router.push('/apps/todo')"><feather-icon icon="CheckSquareIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Tasks</span></li>
-							<li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="$router.push('/apps/chat')"><feather-icon icon="MessageSquareIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Chat</span></li>
-                            <li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="$router.push('/apps/eCommerce/wish-list')"><feather-icon icon="HeartIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Wish List</span></li>
+<!--						<li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="$router.push('/apps/chat')"><feather-icon icon="MessageSquareIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Chat</span></li>-->
 							<vs-divider class="m-1"></vs-divider>
 							<li class="flex py-2 px-4 cursor-pointer hover:bg-primary hover:text-white" @click="logout"><feather-icon icon="LogOutIcon" svgClasses="w-4 h-4"></feather-icon> <span class="ml-2">Logout</span></li>
 						</ul>

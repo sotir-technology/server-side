@@ -11,7 +11,7 @@
 <template>
   <vs-sidebar click-not-close position-right parent="body" default-index="1" color="primary" class="add-new-data-sidebar items-no-padding" spacer v-model="isSidebarActiveLocal">
     <div class="mt-6 flex items-center justify-between px-6">
-        <h4>ADD NEW DATA</h4>
+        <h4>{{ title }}</h4>
         <feather-icon icon="XIcon" @click.stop="isSidebarActiveLocal = false" class="cursor-pointer"></feather-icon>
     </div>
     <vs-divider class="mb-0"></vs-divider>
@@ -20,20 +20,19 @@
 
       <div class="p-6">
         <!-- NAME -->
-        <vs-input label="Name" name="name" v-model="name" class="mt-5 w-full" />
+        <vs-input v-for="(input,index) in inputInfo" :key="index" :label="input.name" :type="input.type" :name="input.name" :placeholder="input.placeholder" v-model="name" class="mt-5 w-full" />
 
-        <!-- CATEGORY -->
-        <vs-select v-model="category" label="Category" class="mt-5 w-full">
-          <vs-select-item :key="item.value" :value="item.value" :text="item.text" v-for="item in category_choices" />
-        </vs-select>
+<!--        &lt;!&ndash; CATEGORY &ndash;&gt;-->
+<!--        <vs-select v-model="category" label="Category" class="mt-5 w-full">-->
+<!--          <vs-select-item :key="item.value" :value="item.value" :text="item.text" v-for="item in category_choices" />-->
+<!--        </vs-select>-->
 
-        <!-- ORDER STATUS -->
-        <vs-select v-model="order_status" label="Order Status" class="mt-5 w-full">
-          <vs-select-item :key="item.value" :value="item.value" :text="item.text" v-for="item in order_status_choices" />
-        </vs-select>
+<!--        &lt;!&ndash; ORDER STATUS &ndash;&gt;-->
+<!--        <vs-select v-model="order_status" label="Order Status" class="mt-5 w-full">-->
+<!--          <vs-select-item :key="item.value" :value="item.value" :text="item.text" v-for="item in order_status_choices" />-->
+<!--        </vs-select>-->
 
-        <!-- PRICE -->
-        <vs-input label="Price" name="price" v-model="price" class="mt-5 w-full" />
+
 
         <!-- IMG -->
         <vs-upload text="Upload Image" class="img-upload" ref="fileUpload" />
@@ -52,6 +51,9 @@ import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 export default {
   props: {
+
+    title: String,
+    inputInfo: Array,
     isSidebarActive: {
       type: Boolean,
       required: true
