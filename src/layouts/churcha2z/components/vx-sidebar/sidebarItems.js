@@ -28,13 +28,13 @@ export default [
     i18n: "Dashboard",
     submenu: [
       {
-        url: '/dashboard/analytics',
+        url: 'branch/dashboard/analytics',
         name: "Analytics",
         slug: "dashboardAnalytics",
         i18n: "Analytics",
       },
       {
-        url: '/dashboard/ecommerce',
+        url: 'branch/dashboard/ecommerce',
         name: "eCommerce",
         slug: "dashboardECommerce",
         i18n: "eCommerce",
@@ -46,26 +46,213 @@ export default [
     i18n: "Menu",
   },
   {
-    url: "/classes",
+    url: null,
     name: "Classes",
     slug: "classes",
     icon: "MailIcon",
     i18n: "Classes",
+    submenu: [
+      {
+        url: '/branch/all-classes',
+        name: "All Classes",
+				slug: "All Classes",
+				i18n: "All Classes",
+      },
+      {
+        url: null,
+        name: "Foundation Classes",
+				slug: "Foundation Classes",
+        i18n: "Foundation Classes",
+        submenu:[
+          {
+            url: '/branch/foundation-classes-batches',
+            name: "Foundation Classes Batches",
+            slug: "Foundation Classes Batches",
+            i18n: "Foundation Classes Batches",
+          },
+          {
+            url: '/branch/counsellors-facilitators',
+            name: "Counsellors/Facilitators",
+            slug: "Counsellors/Facilitators",
+            i18n: "Counsellors/Facilitators",
+          }
+        ]
+      },
+      {
+        url: null,
+        name: "DLTC",
+				slug: "DLTC",
+        i18n: "DLTC",
+        submenu:[
+          {
+            url: "/branch/DLTC-Batches",
+            name: "DLTC Batches",
+            slug: "DLTC Batches",
+            i18n: "DLTC Batches",
+          },
+          {
+            url: "/branch/facilitators",
+            name: "Facilitators",
+            slug: "Facilitators",
+            i18n: "Facilitators",
+          }
+        ]
+      }
+    ]
   },
   {
-    url: "/Pastors",
+    url: "branch/Pastors",
     name: "Pastors",
     slug: "pastors",
     icon: "MailIcon",
     i18n: "Pastors",
   },
   {
-    url: "/Members",
+    url: null,
+    name: "Converts",
+    slug: "Converts",
+    icon: "MailIcon",
+    i18n: "Converts",
+    submenu: [
+			{
+				url: '/branch/add-convert(s)',
+				name: "Add Converts",
+				slug: "Add Converts",
+				i18n: "Add Converts",
+			},
+			{
+				url: '/branch/all-converts',
+				name: "All Converts",
+				slug: "All Converts",
+				i18n: "All Converts",
+      },
+      {
+				url: '/branch/daily-summaries',
+				name: "Daily Summaries",
+				slug: "Daily Summaries",
+				i18n: "Daily Summaries",
+      },
+      {
+				url: '/branch/add-convert-category',
+				name: "Add Convert Category",
+				slug: "Add Convert Category",
+				i18n: "Add Convert Category",
+      },
+      {
+				url: '/branch/bulk-SMS',
+				name: "Bulk SMS",
+				slug: "Bulk SMS",
+				i18n: "Bulk SMS",
+			},
+		]
+  },
+  {
+    url: null,
+    name: "Home Church",
+    slug: "Home Church",
+    icon: "MailIcon",
+    i18n: "Home Church",
+    submenu: [
+			{
+				url: '/branch/Home-church-list',
+				name: "Home Churches",
+				slug: "Home Churches",
+				i18n: "Home Churches",
+      },
+      {
+				url: '/branch/add-home-church',
+				name: "Add Home Church",
+				slug: "Add Home Church",
+				i18n: "Add Home Church",
+      },
+      {
+				url: '/branch/all-districts',
+				name: "All Districts",
+				slug: "All Districts",
+				i18n: "All Districts",
+      },
+      {
+				url: '/branch/all-zones',
+				name: "All Zones",
+				slug: "All Zones",
+				i18n: "All Zones",
+      },
+      {
+				url: '/branch/all-areas',
+				name: "All Areas",
+				slug: "All Areas",
+				i18n: "All Areas",
+      },
+      {
+				url: '/branch/DHC-leadership',
+				name: "DHC Leadership",
+				slug: "DHC Leadership",
+				i18n: "DHC Leadership",
+      }
+		]
+  },
+  {
+    url: null,
     name: "Members",
     slug: "members",
     icon: "MailIcon",
     i18n: "Members",
+    submenu: [
+      {
+        url: "/branch/all-members",
+        name: "All Member",
+        slug: "All Member",
+        i18n: "All Member"
+      },
+      {
+        url: "add-member",
+        name: "Add Member",
+        slug: "Add Member",
+        i18n: "Add Member"
+      }
+    ]
   },
+  {
+    url: "/branches/departments",
+    name: "Departments/Units",
+    slug: "Departments/Units",
+    icon: "MailIcon",
+    i18n: "Departments/Units",
+  },
+  {
+    url: null,
+    name: "Service Attendance",
+    slug: "Service Attendance",
+    icon: "MailIcon",
+    i18n: "Service Attendance",
+    submenu: [
+      {
+        url: "/branch/service-attendances",
+        name: "Service Attendances",
+        slug: "Service Attendances",
+        i18n: "Service Attendances"
+      },
+      {
+        url: "/branch/attendance-count",
+        name: "Attendance Count",
+        slug: "Attendance Count",
+        i18n: "Attendance Count"
+      },
+      {
+        url: "/branch/attendance-data",
+        name: "Attendance Data",
+        slug: "Attendance Data",
+        i18n: "Attendance Data"
+      },
+      {
+        url: "add-attendance",
+        name: "Add Attendance",
+        slug: "Add Attendance",
+        i18n: "Add Attendance"
+      }
+    ]
+  },
+ 
   // {
   //   url: "/apps/chat",
   //   name: "New",

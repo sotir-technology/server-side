@@ -37,12 +37,5 @@ export default [
         slug: "branches",
         icon: "MailIcon",
         i18n: "All Branches",
-    },
-    {
-        url: "Add Branch",
-        name: "addBranch",
-        slug: "addbranch",
-        icon: "MessageSquareIcon",
-        i18n: "Add Branch",
     }
 ]
