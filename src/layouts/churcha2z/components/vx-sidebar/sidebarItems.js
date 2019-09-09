@@ -286,16 +286,37 @@ export default [
         i18n: "Posting History"
       },
       {
-        url: "/branch/add-astor",
+        url: "/branch/add-pastor",
         name: "Add Pastor",
         slug: "Add Pastor",
         i18n: "Add Pastor"
       },
       {
-        url: "/branch/add-astor",
-        name: "Add Pastor",
-        slug: "Add Pastor",
-        i18n: "Add Pastor"
+        url: "/branch/resident-pastors",
+        name: "Resident Pastors",
+        slug: "Resident Pastors",
+        i18n: "Resident Pastors"
+      },
+      {
+        url: "/branch/reports",
+        name: "Reports",
+        slug: "Reports",
+        i18n: "Reports"
+      }
+    ]
+  },
+  {
+    url: null,
+    name: "Finance",
+    slug: "Finance",
+    icon: "Finance",
+    i18n: "Finance",
+    submenu: [
+      {
+        url: "/branch/dashboard",
+        name: "Dashboard",
+        slug: "Dashboard",
+        i18n: "Dashboard"
       }
     ]
   }
