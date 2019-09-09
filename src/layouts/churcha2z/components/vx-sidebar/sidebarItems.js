@@ -101,13 +101,6 @@ export default [
     ]
   },
   {
-    url: "branch/Pastors",
-    name: "Pastors",
-    slug: "pastors",
-    icon: "MailIcon",
-    i18n: "Pastors",
-  },
-  {
     url: null,
     name: "Converts",
     slug: "Converts",
@@ -252,7 +245,60 @@ export default [
       }
     ]
   },
- 
+  {
+    url: null,
+    name: "Locations",
+    slug: "Locations",
+    icon: "MailIcon",
+    i18n: "Locations",
+    submenu: [
+      {
+        url: "/branch/all-locations",
+        name: "All Locations",
+        slug: "All Locations",
+        i18n: "All Locations"
+      },
+      {
+        url: "/branch/location-planting-info",
+        name: "Location Planting Info",
+        slug: "Location Planting Info",
+        i18n: "Location Planting Info"
+      },
+      {
+        url: "/branch/foreign-locations",
+        name: "Foreign Locations",
+        slug: "Foreign Locations",
+        i18n: "Foreign Locations"
+      }
+    ]
+  },
+  {
+    url: null,
+    name: "Pastors",
+    slug: "pastors",
+    icon: "MailIcon",
+    i18n: "Pastors",
+    submenu: [
+      {
+        url: "/branch/posting-history",
+        name: "Posting History",
+        slug: "Posting History",
+        i18n: "Posting History"
+      },
+      {
+        url: "/branch/add-astor",
+        name: "Add Pastor",
+        slug: "Add Pastor",
+        i18n: "Add Pastor"
+      },
+      {
+        url: "/branch/add-astor",
+        name: "Add Pastor",
+        slug: "Add Pastor",
+        i18n: "Add Pastor"
+      }
+    ]
+  }
   // {
   //   url: "/apps/chat",
   //   name: "New",
