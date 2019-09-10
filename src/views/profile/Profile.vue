@@ -86,79 +86,26 @@
             <!-- COL 2 -->
             <div class="vx-col w-full lg:w-3/4">
                 <div class="vx-row"><!-- CONTENT CARD - PROGRESS BAR/GOAL -->
-            <div class="vx-col sm:w-1/2 md:w-1/2">
-                <vx-card class="mt-base">
-                    <img :src="require(`@/assets/images/pages/${card_3.contentImg3}`)" alt="content-img" class="responsive rounded-lg">
-                    <div class="my-6">
-                        <h5 class="mb-2">{{ card_3.title }}</h5>
+                    <div v-for="CardDatum in cardData" v-bind:key="CardDatum.id" class="vx-col sm:w-1/2 md:w-1/2">
+                        <vx-card class="mt-base">
+                            <img :src="require(`@/assets/images/pages/${CardDatum.contentImg3}`)" alt="content-img" class="responsive rounded-lg">
+                            <div class="my-6">
+                                <h5 class="mb-2">{{ CardDatum.title }}</h5>
+                            </div>
+                            <div class="mb-4">
+                                <div class="flex justify-between">
+                                    <small class="font-semibold">{{ CardDatum.current_progress }}</small>
+                                    <small class="text-grey">{{ CardDatum.progress_goal }}</small>
+                                </div>
+                                <vs-progress :percent="CardDatum.progress_done_per" class="block mt-1 shadow-md"></vs-progress>
+                            </div>
+                            <div class="flex justify-between flex-wrap">
+                                <vs-button class="mt-4 shadow-lg" type="gradient" color="#7367F0" gradient-color-secondary="#CE9FFC">{{ CardDatum.btn_left_text }}</vs-button>
+                                <vs-button class="mt-4" type="border" color="#b9b9b9">{{ CardDatum.btn_right_text }}</vs-button>
+                            </div>
+                        </vx-card>
                     </div>
-                    <div class="mb-4">
-                        <div class="flex justify-between">
-                            <small class="font-semibold">{{ card_3.current_progress }}</small>
-                            <small class="text-grey">{{ card_3.progress_goal }}</small>
-                        </div>
-                        <vs-progress :percent="card_3.progress_done_per" class="block mt-1 shadow-md"></vs-progress>
-                    </div>
-                    <div class="flex justify-between flex-wrap">
-                        <vs-button class="mt-4 shadow-lg" type="gradient" color="#7367F0" gradient-color-secondary="#CE9FFC">{{ card_3.btn_left_text }}</vs-button>
-                        <vs-button class="mt-4" type="border" color="#b9b9b9">{{ card_3.btn_right_text }}</vs-button>
-                    </div>
-                </vx-card>
-            </div><div class="vx-col sm:w-1/2 md:w-1/2">
-                <vx-card class="mt-base">
-                    <img :src="require(`@/assets/images/pages/${card_3.contentImg3}`)" alt="content-img" class="responsive rounded-lg">
-                    <div class="my-6">
-                        <h5 class="mb-2">{{ card_3.title }}</h5>
-                    </div>
-                    <div class="mb-4">
-                        <div class="flex justify-between">
-                            <small class="font-semibold">{{ card_3.current_progress }}</small>
-                            <small class="text-grey">{{ card_3.progress_goal }}</small>
-                        </div>
-                        <vs-progress :percent="card_3.progress_done_per" class="block mt-1 shadow-md"></vs-progress>
-                    </div>
-                    <div class="flex justify-between flex-wrap">
-                        <vs-button class="mt-4 shadow-lg" type="gradient" color="#7367F0" gradient-color-secondary="#CE9FFC">{{ card_3.btn_left_text }}</vs-button>
-                        <vs-button class="mt-4" type="border" color="#b9b9b9">{{ card_3.btn_right_text }}</vs-button>
-                    </div>
-                </vx-card>
-            </div><div class="vx-col sm:w-1/2 md:w-1/2">
-                <vx-card class="mt-base">
-                    <img :src="require(`@/assets/images/pages/${card_3.contentImg3}`)" alt="content-img" class="responsive rounded-lg">
-                    <div class="my-6">
-                        <h5 class="mb-2">{{ card_3.title }}</h5>
-                    </div>
-                    <div class="mb-4">
-                        <div class="flex justify-between">
-                            <small class="font-semibold">{{ card_3.current_progress }}</small>
-                            <small class="text-grey">{{ card_3.progress_goal }}</small>
-                        </div>
-                        <vs-progress :percent="card_3.progress_done_per" class="block mt-1 shadow-md"></vs-progress>
-                    </div>
-                    <div class="flex justify-between flex-wrap">
-                        <vs-button class="mt-4 shadow-lg" type="gradient" color="#7367F0" gradient-color-secondary="#CE9FFC">{{ card_3.btn_left_text }}</vs-button>
-                        <vs-button class="mt-4" type="border" color="#b9b9b9">{{ card_3.btn_right_text }}</vs-button>
-                    </div>
-                </vx-card>
-            </div><div class="vx-col sm:w-1/2 md:w-1/2">
-                <vx-card class="mt-base">
-                    <img :src="require(`@/assets/images/pages/${card_3.contentImg3}`)" alt="content-img" class="responsive rounded-lg">
-                    <div class="my-6">
-                        <h5 class="mb-2">{{ card_3.title }}</h5>
-                    </div>
-                    <div class="mb-4">
-                        <div class="flex justify-between">
-                            <small class="font-semibold">{{ card_3.current_progress }}</small>
-                            <small class="text-grey">{{ card_3.progress_goal }}</small>
-                        </div>
-                        <vs-progress :percent="card_3.progress_done_per" class="block mt-1 shadow-md"></vs-progress>
-                    </div>
-                    <div class="flex justify-between flex-wrap">
-                        <vs-button class="mt-4 shadow-lg" type="gradient" color="#7367F0" gradient-color-secondary="#CE9FFC">{{ card_3.btn_left_text }}</vs-button>
-                        <vs-button class="mt-4" type="border" color="#b9b9b9">{{ card_3.btn_right_text }}</vs-button>
-                    </div>
-                </vx-card>
-            </div></div>
+                </div>
             </div>
 
         </div>
@@ -170,21 +117,72 @@ import { videoPlayer } from 'vue-video-player'
 import 'video.js/dist/video-js.css'
 
 export default {
-    components: {
-    },
     data() {
         return {          
-            // card 3
-            card_3: {
-                contentImg3: 'content-img-3.jpg',
-                title: 'Vuesax Admin',
-                progress_done_per: 75,
-                current_progress: '$ 5975',
-                progress_goal: '$ 8000',
-                btn_left_text: 'Add More',
-                btn_right_text: 'Remove'
+            // Subscription Card
+            cardData: [
+                {
+                    id: "card-1",
+                    contentImg3: 'content-img-3.jpg',
+                    title: 'Vuesax Admin',
+                    progress_done_per: 75,
+                    current_progress: '$ 5975',
+                    progress_goal: '$ 8000',
+                    btn_left_text: 'Add More',
+                    btn_right_text: 'Remove'
+                },
+                {
+                    id: "card-2",
+                    contentImg3: 'content-img-3.jpg',
+                    title: 'Vuesax Admin',
+                    progress_done_per: 75,
+                    current_progress: '$ 5975',
+                    progress_goal: '$ 8000',
+                    btn_left_text: 'Add More',
+                    btn_right_text: 'Remove'
+                },
+                {
+                    id: "card-3",
+                    contentImg3: 'content-img-3.jpg',
+                    title: 'Vuesax Admin',
+                    progress_done_per: 75,
+                    current_progress: '$ 5975',
+                    progress_goal: '$ 8000',
+                    btn_left_text: 'Add More',
+                    btn_right_text: 'Remove'
+                },
+                {
+                    id: "card-4",
+                    contentImg3: 'content-img-3.jpg',
+                    title: 'Vuesax Admin',
+                    progress_done_per: 75,
+                    current_progress: '$ 5975',
+                    progress_goal: '$ 8000',
+                    btn_left_text: 'Add More',
+                    btn_right_text: 'Remove'
+                },
+                {
+                    id: "card-5",
+                    contentImg3: 'content-img-3.jpg',
+                    title: 'Vuesax Admin',
+                    progress_done_per: 75,
+                    current_progress: '$ 5975',
+                    progress_goal: '$ 8000',
+                    btn_left_text: 'Add More',
+                    btn_right_text: 'Remove'
+                },
+                {
+                    id: "card-6",
+                    contentImg3: 'content-img-3.jpg',
+                    title: 'Vuesax Admin',
+                    progress_done_per: 75,
+                    current_progress: '$ 5975',
+                    progress_goal: '$ 8000',
+                    btn_left_text: 'Add More',
+                    btn_right_text: 'Remove'
+                }
 
-            },
+            ],
             isNavOpen: false,
             userInfo: {
                 profileImg: 'user-13.jpg',
@@ -193,9 +191,6 @@ export default {
             userCoverImg: 'cover.jpg',
             wasSidebarOpen: null,
         }
-    },
-    computed: {
-                       
     },
     methods: {
         handleWindowResize(event) {
@@ -235,7 +230,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/vuesax/pages/profile.scss";#demo-basic-card {
+@import "@/assets/scss/vuesax/pages/profile.scss";
+#demo-basic-card {
     .overlay-card {
         .vx-card__collapsible-content {
             max-height: 485px;
@@ -249,6 +245,5 @@ export default {
             background-color: #f2f4f7 !important;
         }
     }
-
-    }
+}
 </style>
