@@ -12,6 +12,7 @@ import themeConfig from '@/../themeConfig.js'
 import colors from '@/../themeConfig.js'
 
 const state = {
+
     isSidebarActive: false ,
     breakpoint: null,
     sidebarWidth: "default",
@@ -32,6 +33,13 @@ const state = {
 
     starredPages: navbarSearchAndPinList.data.filter((page) => page.highlightAction),
     userRole: null,
+
+
+    //LOGIN/REGISTER STATE
+    status: '',
+    msg:'',
+    reg_status:''
+
 }
 
 export default state

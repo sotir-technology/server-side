@@ -87,6 +87,29 @@ const mutations = {
             state.starredPages.splice(10, 0, lastItemInStarredLimited);
         }
     },
+
+
+    //AUTHENTICATION STATUS
+    reg_request(state){
+        state.status = 'loading'
+    },
+    reg_success(state){
+        state.status = 'success'
+
+    },
+    auth_error(state){
+        state.status = 'error'
+    },
+    logout(state){
+        state.status = ''
+        state.token = ''
+    },
+    INPUT_MSG(state, payload){
+        state.msg = payload;
+    },
+    INPUT_REG_STATUS(state, payload){
+        state.reg_status = payload;
+    }
 }
 
 export default mutations

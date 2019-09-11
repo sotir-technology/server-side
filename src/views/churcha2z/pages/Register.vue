@@ -25,11 +25,11 @@
                                 </div>
                                 <div class="clearfix">
                                     <vs-input
-                                        v-validate="'required|alpha_dash|min:3'"
+                                        v-validate="'required|min:3'"
                                         data-vv-validate-on="blur"
-                                        label-placeholder="Username"
-                                        name="username"
-                                        placeholder="Church"
+                                        label-placeholder="Church Name"
+                                        name="church_name"
+                                        placeholder="Church Name"
                                         v-model="church_name"
                                         class="w-full" />
                                     <span class="text-danger text-sm">{{ errors.first('church_name') }}</span>
@@ -37,19 +37,71 @@
                                     <vs-input
                                         v-validate="'required|email'"
                                         data-vv-validate-on="blur"
-                                        name="email"
+                                        name="church_email"
                                         type="email"
                                         label-placeholder="Church Email"
-                                        placeholder="Email"
-                                        v-model="email"
+                                        placeholder="Church Email"
+                                        v-model="church_email"
                                         class="w-full mt-6" />
-                                    <span class="text-danger text-sm">{{ errors.first('email') }}</span>
+                                    <span class="text-danger text-sm">{{ errors.first('church_email') }}</span>
 
+                                    <vs-input
+                                        v-validate="'required|min:3'"
+                                        data-vv-validate-on="blur"
+                                        name="phone"
+                                        type="phone"
+                                        label-placeholder="Church Phone"
+                                        placeholder="Church Phone"
+                                        v-model="church_phone"
+                                        class="w-full mt-6" />
+                                    <span class="text-danger text-sm">{{ errors.first('church_phone') }}</span>
+
+                                    <vs-input
+                                        v-validate="'required|min:3'"
+                                        data-vv-validate-on="blur"
+                                        name="founder"
+                                        label-placeholder="Founder"
+                                        placeholder="Founder"
+                                        v-model="founder"
+                                        class="w-full mt-6" />
+                                    <span class="text-danger text-sm">{{ errors.first('founder') }}</span>
+
+                                    <vs-input
+                                        v-validate="'required|alpha_dash|min:3'"
+                                        data-vv-validate-on="blur"
+                                        name="country"
+                                        label-placeholder="Country"
+                                        placeholder="Country"
+                                        v-model="country"
+                                        class="w-full mt-6" />
+                                    <span class="text-danger text-sm">{{ errors.first('country') }}</span>
+                                    <vs-row vs-w="12">
+                                        <vs-col vs-type="flex"  vs-align="left" vs-w="6">
+                                            <vs-input
+                                                    v-validate="'required|min:3'"
+                                                    data-vv-validate-on="blur"
+                                                    name="state"
+                                                    label-placeholder="state"
+                                                    placeholder="State"
+                                                    v-model="state"
+                                                    class="mt-6" />
+                                        </vs-col>
+                                        <vs-col vs-type="flex"  vs-align="right" vs-w="6">
+                                            <vs-input
+                                                    v-validate="'required|min:3'"
+                                                    data-vv-validate-on="blur"
+                                                    name="street"
+                                                    label-placeholder="state"
+                                                    placeholder="Street"
+                                                    v-model="street"
+                                                    class="mt-6  " />
+                                        </vs-col>
+                                    </vs-row>
                                     <vs-input
                                         ref="password"
                                         type="password"
                                         data-vv-validate-on="blur"
-                                        v-validate="'required|min:6|max:10'"
+                                        v-validate="'required|min:6'"
                                         name="password"
                                         label-placeholder="Password"
                                         placeholder="Password"
@@ -59,7 +111,7 @@
 
                                     <vs-input
                                         type="password"
-                                        v-validate="'min:6|max:10|confirmed:password'"
+                                        v-validate="'min:6|confirmed:password'"
                                         data-vv-validate-on="blur"
                                         data-vv-as="password"
                                         name="confirm_password"
@@ -69,9 +121,10 @@
                                         class="w-full mt-6" />
                                     <span class="text-danger text-sm">{{ errors.first('confirm_password') }}</span>
 
+
                                     <vs-checkbox v-model="isTermsConditionAccepted" class="mt-6">I accept the terms & conditions.</vs-checkbox>
                                     <vs-button  type="border" to="/church/login" class="mt-6">Login</vs-button>
-                                    <vs-button class="float-right mt-6" @click="registerUser" :disabled="!validateForm">Register</vs-button>
+                                    <vs-button class="float-right mt-6 vs-con-loading__container" ref="loadableButton" id="button-with-loading"  type="relief" @click="registerUser" :disabled="!validateForm">Register</vs-button>
                                 </div>
                             </div>
                         </div>
@@ -83,44 +136,79 @@
 </template>
 
 <script>
-import firebase from 'firebase/app'
-
+import {mapActions, mapGetters, mapState} from 'vuex'
 export default {
     data() {
         return {
-            username: '',
-            email: '',
+            church_name: '',
+            church_email: '',
+            church_phone: '',
+            founder: '',
+            country: '',
+            state: '',
+            street: '',
             password: '',
             confirm_password: '',
-            isTermsConditionAccepted: true
+            isTermsConditionAccepted: true,
+            backgroundLoading:'primary',
+            colorLoading:'#fff',
         }
     },
     computed: {
         validateForm() {
-            return !this.errors.any() && this.username != '' && this.email != '' && this.password != '' && this.confirm_password != '' && this.isTermsConditionAccepted === true;
-        }
+            return !this.errors.any() && this.church_name != '' && this.church_email != '' && this.password != '' && this.confirm_password != '' && this.isTermsConditionAccepted === true;
+        },
+        ...mapState(['msg','reg_status', 'status']),
     },
     methods: {
+        ...mapActions( ['RegisterChurch'] ),
+
+
         registerUser() {
-            if (!this.validateForm) return false
+        //    if (!this.validateForm) return false
+            this.startLoading();
             if(this.$store.state.auth.isUserLoggedIn()) {
               this.notifyAlreadyLogedIn();
               return
             }
 
-            // create user using firebase
-            firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
+            const payload = {
+                name: this.church_name,
+                email: this.church_email,
+                phone: this.phone,
+                founder: this.founder,
+                password: this.password,
+                country: this.country,
+                state: this.state,
+                street: this.street
+            }
+            // create church data on server
+          this.RegisterChurch(payload)
                 .then(() => {
+                    //the registration was not successful
+                    if(this.reg_status === false){
+                        this.$vs.notify({
+                            title: this.msg,
+                            text: 'Something went wrong!',
+                            iconPack: 'feather',
+                            icon: 'icon-check',
+                            color: 'warning'
+                        });
+                    return this.stopLoading();
+                    }
+                    //THe registration is successful
                     this.$vs.notify({
-                        title: 'Account Created',
+                        title: this.msg,
                         text: 'You are successfully registered!',
                         iconPack: 'feather',
                         icon: 'icon-check',
                         color: 'success'
                     });
+                    this.$route.push('/');
+                    return this.stopLoading();
                 }, (error) => {
                     this.$vs.notify({
-                        title: 'Error',
+                        title: 'Error Here',
                         text: error.message,
                         iconPack: 'feather',
                         icon: 'icon-alert-circle',
@@ -128,36 +216,36 @@ export default {
                     });
                 })
 
-            // update user profile. In this case add username
-            const username = this.username;
-            const loginPayload = {
-                userDetails: {
-                    email: this.email,
-                    password: this.password
-                },
-                notify: this.$vs.notify
-            }
-            const store = this.$store;
-            firebase.auth().onAuthStateChanged(function(user) {
-                if (user) {
-                    user.updateProfile({
-                        displayName: username,
-                    }).then(function() {
-                        // Profile updated successfully!
-                        // Login user
-                        store.dispatch('auth/login', loginPayload)
-                    }, function(error) {
-                        this.$vs.notify({
-                            title: 'Error',
-                            text: error.message,
-                            iconPack: 'feather',
-                            icon: 'icon-alert-circle',
-                            color: 'danger'
-                        });
-                    });
-
-                }
-            });
+            // // update user profile. In this case add username
+            // const username = this.username;
+            // const loginPayload = {
+            //     userDetails: {
+            //         email: this.email,
+            //         password: this.password
+            //     },
+            //     notify: this.$vs.notify
+            // }
+            // const store = this.$store;
+            // firebase.auth().onAuthStateChanged(function(user) {
+            //     if (user) {
+            //         user.updateProfile({
+            //             displayName: username,
+            //         }).then(function() {
+            //             // Profile updated successfully!
+            //             // Login user
+            //             store.dispatch('auth/login', loginPayload)
+            //         }, function(error) {
+            //             this.$vs.notify({
+            //                 title: 'Error',
+            //                 text: error.message,
+            //                 iconPack: 'feather',
+            //                 icon: 'icon-alert-circle',
+            //                 color: 'danger'
+            //             });
+            //         });
+            //
+            //     }
+            // });
         },
         notifyAlreadyLogedIn() {
             this.$vs.notify({
@@ -168,6 +256,17 @@ export default {
                 color: 'warning'
             });
         },
-    }
+        startLoading(){
+      return  this.$vs.loading({
+                background: this.backgroundLoading,
+                color: this.colorLoading,
+                container: "#button-with-loading",
+                scale: 0.45
+            }) },
+        stopLoading(){
+             return this.$vs.loading.close("#button-with-loading > .con-vs-loading")
+            }
+        },
+
 }
 </script>
