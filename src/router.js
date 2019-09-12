@@ -53,9 +53,47 @@ const router = new Router({
             ],
         },
         {
-    // =============================================================================
-    // MAIN LAYOUT ROUTES
-    // =============================================================================
+        // =============================================================================
+        // Profile LAYOUT ROUTES
+        // =============================================================================
+            path: '/profile',
+            component: () => import('./layouts/profile/ProfileLayout.vue'),
+            children: [
+        // =============================================================================
+        // Theme Routes
+        // =============================================================================
+                {
+                    path: '/profile',
+                    component: () => import('./views/profile/Profile.vue'),
+                    meta: {
+                        breadcrumb: [
+                            { title: 'Home', url: '/profile' },
+                            { title: 'Pages' },
+                            { title: 'Profile', active: true },
+                        ],
+                        pageTitle: 'Profile',
+                        rule: 'editor'
+                    },
+                },
+                {
+                    path: '/profile-settings',
+                    component: () => import('./views/profile/profileSettings.vue'),
+                    meta: {
+                        breadcrumb: [
+                            { title: 'Home', url: '/profile' },
+                            { title: 'Pages' },
+                            { title: 'Profile Settings', active: true },
+                        ],
+                        pageTitle: 'Profile Settings',
+                        rule: 'editor'
+                    },
+                }
+            ],
+        },
+        {
+        // =============================================================================
+        // MAIN LAYOUT ROUTES
+        // =============================================================================
             path: '',
             component: () => import('./layouts/churcha2z/main/ChurchLayout.vue'),
             children: [
