@@ -24,6 +24,7 @@ import moduleChat from './chat/moduleChat.js'
 import moduleEmail from './email/moduleEmail.js'
 import moduleAuth from './auth/moduleAuth.js'
 import moduleECommerce from './eCommerce/moduleECommerce.js'
+import moduleService from './service/moduleService'
 
 
 export default new Vuex.Store({
@@ -38,6 +39,7 @@ export default new Vuex.Store({
         email: moduleEmail,
         auth: moduleAuth,
         eCommerce: moduleECommerce,
+        service: moduleService
     },
     strict: process.env.NODE_ENV !== 'production'
 })

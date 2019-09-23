@@ -22,24 +22,24 @@
         </div>
 
         <template slot="codeContainer">
-&lt;template&gt;
-  &lt;div class=&quot;demo-alignment&quot;&gt;
-    &lt;vs-button @click=&quot;openLoading&quot; type=&quot;filled&quot; color=&quot;primary&quot;&gt;Loading Default&lt;/vs-button&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
+<template>
+  <div class="demo-alignment">
+    <vs-button @click="openLoading" type="filled" color="primary">Loading Default</vs-button>
+  </div>
+</template>
 
-&lt;script&gt;
+<script>
 export default {
   methods:{
     openLoading(){
       this.$vs.loading()
-      setTimeout( ()=&gt; {
+      setTimeout( ()=> {
         this.$vs.loading.close()
       }, 2000);
     },
   }
 }
-&lt;/script&gt;
+</script>
         </template>
 
     </vx-card>

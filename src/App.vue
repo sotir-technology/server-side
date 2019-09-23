@@ -18,7 +18,8 @@
 
 <script>
 import themeConfig from '../themeConfig.js'
-
+// import undefined from 'firebase/empty-import';
+import axios from 'axios';
 export default {
     watch: {
         '$store.state.theme'(val) {
@@ -26,11 +27,12 @@ export default {
         }
     },
     async created() {
-      try {
-        await this.$auth.renewTokens();
-      } catch (e) {
-        console.log(e);
-      }
+        //Check if token is available from local storage
+        let token = localStorage.getItem('token');
+        if(token){
+           //fetch user data from api if token is available
+                this.$store.dispatch('auth/fetch_user_data_with_valid_token',token)
+        }
     },
     methods: {
         toggleClassInBody(className) {
@@ -49,5 +51,6 @@ export default {
     mounted() {
         this.toggleClassInBody(themeConfig.theme)
     },
+ 
 }
 </script>

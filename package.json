@@ -59,7 +59,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
@@ -69,6 +71,7 @@
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-eslint": "^3.0.4",
     "@vue/cli-service": "^3.0.4",
+    "babel-preset-stage-2": "^6.24.1",
     "node-sass": "^4.9.0",
     "purgecss": "^1.1.0",
     "sass-loader": "^7.0.1",

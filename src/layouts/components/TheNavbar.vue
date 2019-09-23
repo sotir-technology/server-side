@@ -191,7 +191,7 @@
 			</vs-dropdown>
 
 			<!-- USER META -->
-			<div class="the-navbar__user-meta flex items-center">
+			<!-- <div class="the-navbar__user-meta flex items-center">
 				<div class="text-right leading-tight hidden sm:block">
 					<p class="font-semibold">{{ user_displayName }}</p>
 					<small>Available</small>
@@ -227,7 +227,7 @@
 						</ul>
 					</vs-dropdown-menu>
 				</vs-dropdown>
-			</div>
+			</div> -->
 
 		</vs-navbar>
 	</div>
@@ -235,8 +235,8 @@
 </template>
 
 <script>
-import firebase from 'firebase/app'
-import 'firebase/auth'
+// import firebase from 'firebase/app'
+// import 'firebase/auth'
 import VxAutoSuggest from '@/components/vx-auto-suggest/VxAutoSuggest.vue';
 import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 import draggable from 'vuedraggable'
@@ -392,21 +392,9 @@ export default {
             return 'Just Now'
         },
         logout() {
-            // if user is logged in via auth0
-            if (this.$auth.profile) this.$auth.logOut();
-
-            // if user is looged in via firebase
-            const firebaseCurrentUser = firebase.auth().currentUser
-
-            if (firebaseCurrentUser) {
-                firebase.auth().signOut().then(() => {
-                    this.$router.push('/pages/login')
-                    localStorage.removeItem('userInfo');
-                })
-            }
-            // Change role on logout. Same value as initialRole of acj.js
-            this.$acl.change('admin')
-            localStorage.removeItem('userRole');
+            // logout
+          this.$store.dispatch('auth/AUTH_LOGOUT')
+          
         },
         outside: function() {
             this.showBookmarkPagesDropdown = false

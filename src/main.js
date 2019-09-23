@@ -31,8 +31,8 @@ import InstantSearch from 'vue-instantsearch';
 Vue.use(InstantSearch);
 
 
-// Firebase
-import '@/firebase/firebaseConfig'
+// // Firebase
+// import '@/firebase/firebaseConfig'
 
 
 // Auth0 Plugin
@@ -105,10 +105,7 @@ import 'prismjs/themes/prism-tomorrow.css'
 
 
 
-const token = localStorage.getItem('token');
-if(token){
-    Vue.prototype.$http.defaults.headers.common['Authorization'] = token;
-}
+
 
 // Feather font icon
 require('./assets/css/iconfont.css')

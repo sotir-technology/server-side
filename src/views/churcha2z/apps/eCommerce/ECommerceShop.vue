@@ -375,7 +375,7 @@ export default {
             this.$store.dispatch('eCommerce/toggleItemInWishList', item)
         },
         additemInCart(item) {
-            this.$store.dispatch('eCommerce/additemInCart', item)
+            this.$store.dispatch('service/additemInCart', item)
         },
         cartButtonClicked(item) {
             if(this.isInCart(item.objectID)) this.$router.push('/apps/eCommerce/checkout')
