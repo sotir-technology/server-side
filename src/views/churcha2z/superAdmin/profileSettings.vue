@@ -91,7 +91,7 @@
                                     <span class="text-danger text-sm">{{ errors.first('name') }}</span>
                                 </div>
                             </div>
-                            <div class="vx-row mb-2">
+                            <!-- <div class="vx-row mb-2">
                                 <div class="vx-col w-full">
                                     
                                     <vs-input
@@ -106,12 +106,12 @@
                                         icon-pack="feather" icon="icon-mail" icon-no-border />
                                     <span class="text-danger text-sm">{{ errors.first('email') }}</span>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="vx-row mb-2">
                                 <div class="vx-col w-full">
                                
                                     <vs-input
-                                        v-validate="'required|min:3'"
+                                        v-validate="'required|min:3|phone'"
                                         data-vv-validate-on="blur"
                                         name="phone"
                                         type="phone"
@@ -200,7 +200,7 @@
                                   
                        <vs-input
                                         type="password"
-                                        v-validate="'min:6|confirmed:password'"
+                                        v-validate="'min:6|min:6'"
                                         data-vv-validate-on="blur"
                                         data-vv-as="password"
                                         name="new_password"
@@ -208,11 +208,28 @@
                                         placeholder="New Password"
                                         v-model="new_password"
                                         class="w-full mt-6" />
-                                    <span class="text-danger text-sm">{{ errors.first('confirm_password') }}</span>
+                                    <span class="text-danger text-sm">{{ errors.first('new_password') }}</span>
 
 
                </div>
-                 
+
+                  <div class="vx-col w-full">
+                                  
+                       <vs-input
+                                        type="password"
+                                        v-validate="'min:6|confirmed:password'"
+                                        data-vv-validate-on="blur"
+                                        data-vv-as="password"
+                                        name="c_password"
+                                        label-placeholder="Confirm Password"
+                                        placeholder="Confirm Password"
+                                        v-model="c_password"
+                                        class="w-full mt-6" />
+                                    <span class="text-danger text-sm">{{ errors.first('c_password') }}</span>
+
+
+               </div>
+               
         
                             </div>
               
@@ -254,10 +271,10 @@ export default {
     },
     methods: {
          validateForm() {
-            return !this.errors.any() && this.name != '' && this.phone != '' && this.country!='';
+            return !this.errors.any() && this.name != '' && this.phone != '' && this.country!='' && this.state != '' && this.street != '';
         }, 
         validatePForm() {
-            return !this.errors.any() && this.old_password != '' && this.new_password != '';
+            return !this.errors.any() && this.old_password != '' && this.new_password != '' && this.c_password != '';
         },
         handleWindowResize(event) {
             this.windowWidth = event.currentTarget.innerWidth;

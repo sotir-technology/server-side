@@ -2273,3 +2273,11 @@ const router = new Router({
 })
 
 export default router
+// router.beforeEach((to,from,next) => {
+// if(to.matched.some(meta.requiresAuth) && store.state.auth.isUserLoggedIn == true){
+// next()
+// }
+// else{
+//     next({name: 'pageLogin'})
+// }
+// })
