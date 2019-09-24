@@ -48,42 +48,94 @@
             <div class="vx-col w-full lg:w-3/4">
                 <vx-card title="Account Settings" class="mt-base">
                     <div class="">
-                        <form class="">
+                        <form class="" @submit.prevent="submitFormData">
                             <div class="vx-row mb-2">
-                                <div class="vx-col w-full lg:w-1/2"></div>
-                            </div>
-                            <div class="vx-row mb-2">
-                                <div class="vx-col w-full">
-                                <vs-input class="w-full" icon-pack="feather" icon="icon-user" icon-no-border label-placeholder="First Name" v-model="input21" />
+                                <div class="vx-col w-full lg:w-1/2">
                                 </div>
                             </div>
                             <div class="vx-row mb-2">
                                 <div class="vx-col w-full">
-                                <vs-input type="email" class="w-full" icon-pack="feather" icon="icon-mail" icon-no-border label-placeholder="Email" v-model="input22" />
+                                    <vs-input 
+                                        class="w-full" 
+                                        icon-pack="feather" 
+                                        icon="icon-user" 
+                                        icon-no-border 
+                                        label-placeholder="Full Name" 
+                                        name="accountName" 
+                                        v-model="profile.name"
+                                        @input="profile($event);"
+                                         />
                                 </div>
                             </div>
                             <div class="vx-row mb-2">
                                 <div class="vx-col w-full">
-                                <vs-input class="w-full" icon-pack="feather" icon="icon-smartphone" icon-no-border label-placeholder="Mobile" v-model="input23" />
+                                <vs-input type="email" 
+                                    class="w-full" 
+                                    icon-pack="feather" 
+                                    icon="icon-mail" 
+                                    icon-no-border 
+                                    label-placeholder="Email"
+                                     name="email"  
+                                     v-model="profile.email"/>
                                 </div>
                             </div>
-                            <div class="vx-row mb-6">
+                            <div class="vx-row mb-2">
                                 <div class="vx-col w-full">
-                                <vs-input type="password" class="w-full" icon-pack="feather" icon="icon-lock" icon-no-border label-placeholder="Password" v-model="input24" />
+                                    <vs-input 
+                                        type="tel" 
+                                        class="w-full" 
+                                        icon-pack="feather" 
+                                        icon="icon-smartphone" 
+                                        icon-no-border
+                                        label-placeholder="Mobile" 
+                                        name="phone" 
+                                        v-model="profile.phone" />
                                 </div>
                             </div>
-                            <div class="vx-row mb-6">
+                            <div class="vx-row mb-2">
                                 <div class="vx-col w-full">
-                                <vs-checkbox class="inline-flex" v-model="check6">Remember Me</vs-checkbox>
+                                    <vs-input 
+                                        type="tel" 
+                                        class="w-full" 
+                                        icon-pack="feather" 
+                                        icon="icon-globe" 
+                                        icon-no-border
+                                        label-placeholder="Country" 
+                                        name="country" 
+                                        v-model="profile.country" />
+                                </div>
+                            </div>
+                            <div class="vx-row mb-2">
+                                <div class="vx-col w-full">
+                                    <vs-input 
+                                        type="tel" 
+                                        class="w-full" 
+                                        icon-pack="feather" 
+                                        icon="icon-globe" 
+                                        icon-no-border
+                                        label-placeholder="State" 
+                                        name="country" 
+                                        v-model="profile.state" />
+                                </div>
+                            </div>
+                            <div class="vx-row mb-2">
+                                <div class="vx-col w-full">
+                                    <vs-input 
+                                        type="tel" 
+                                        class="w-full" 
+                                        icon-pack="feather" 
+                                        icon="icon-map"
+                                        icon-no-border 
+                                        label-placeholder="Address" 
+                                        name="address" 
+                                        v-model="profile.street" />
                                 </div>
                             </div>
                             <div class="vx-row">
                                 <div class="vx-col w-full">
-                                <vs-button class="mr-3 mb-2">Submit</vs-button>
-                                <vs-button color="warning" type="border" class="mb-2" @click="input21 = input22 = input23 = input24 = ''; check6 = false;">Reset</vs-button>
+                                    <vs-button class="mr-3 mb-2 mt-2">Submit</vs-button>
                                 </div>
                             </div>
-
                         </form>
                     </div>
                 </vx-card>
@@ -94,10 +146,27 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
     data() {
         return {
-            // isNavOpen: false,
+            country:3,
+            countries:[
+                {text:'Nigeria',value:0},
+                {text:'Kenya',value:1},
+                {text:'Ghana',value:2},
+                {text:'South Africa',value:3},
+            ],
+            state:3,
+            states:[
+                {text:'Abia',value:0},
+                {text:'Adamawa',value:1},
+                {text:'Akwa-ibom',value:2},
+                {text:'Anambra',value:3},
+            ],
+            // password:'',
+            // rePassword:'',
         }
     },
     methods: {
@@ -111,7 +180,25 @@ export default {
             }else {
                 this.isFilterSidebarActive = this.clickNotClose = true;
             }
+        },
+        submitFormData: function(e){
+            var formDataName = this.accountName;
+            //console.log(formDataName);
         }
+    },
+    computed: {
+        //...mapState(['userProfile']),
+        profile: {
+            get () {
+                return this.$store.state.userProfile
+            },
+            set (value) {
+                this.$store.commit('UPDATE_PROFILE', value)
+            }
+        }
+        // profileDetails(){
+        //     return this.$store.state.userProfile;
+        // }
     },
     components: {
     },

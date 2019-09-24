@@ -27,11 +27,21 @@ const state = {
         img: 'avatar-s-11.png',
         status: 'online',
     },
-
     themePrimaryColor: colors.primary,
 
     starredPages: navbarSearchAndPinList.data.filter((page) => page.highlightAction),
     userRole: null,
+
+    userProfile: {
+      name: 'Account Name',
+      email: 'name@churcha2x.com',
+      phone: '08123456788',
+      password: '12345',
+      country: 'Account Location/Country',
+      state: 'State',
+      street: 'address/home',
+    },
+    
 }
 
 export default state

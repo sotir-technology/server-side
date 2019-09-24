@@ -47,6 +47,13 @@ const actions = {
     arrangeStarredPagesMore({ commit }, list) {
         commit('ARRANGE_STARRED_PAGES_MORE', list)
     },
+    // ////////////////////////////////////////////
+    // Profile
+    // ////////////////////////////////////////////
+
+    // Get user profile
+    
+    // Update user profile
 }
 
 export default actions

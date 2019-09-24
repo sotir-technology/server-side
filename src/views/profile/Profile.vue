@@ -15,7 +15,12 @@
         <div class="profile-header">
             <div class="relative">
                 <div class="cover-container rounded-t-lg">
-                    <img :src="require(`@/assets/images/profile/user-uploads/${userCoverImg}`)" alt="user-profile-cover" class="responsive block">
+                    <vx-card slot="no-body" class="text-center bg-primary-gradient greet-user">
+                        <feather-icon icon="AwardIcon" class="p-6 mb-8 bg-primary inline-flex rounded-full text-white shadow" svgClasses="h-8 w-8"></feather-icon>
+                        <h1 class="mb-6 text-white ">Welcome to CHURCH A2Z</h1>
+                        <p class="xl:w-3/4 lg:w-4/5 md:w-2/3 w-4/5 mx-auto text-white">Enjoy the best <strong>Church</strong> Automated System.</p>
+                    </vx-card>
+                    <!-- <img :src="require(`@/assets/images/profile/user-uploads/${userCoverImg}`)" alt="user-profile-cover" class="responsive block"> -->
                 </div>
                 <div class="profile-img-container pointer-events-none">
                     <div>

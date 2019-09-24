@@ -87,6 +87,14 @@ const mutations = {
             state.starredPages.splice(10, 0, lastItemInStarredLimited);
         }
     },
+
+    // ////////////////////////////////////////////
+    // USER PROFILE
+    // ////////////////////////////////////////////
+    UPDATE_PROFILE (state, userProfile) {
+        state.userProfile = userProfile;
+      }
+    
 }
 
 export default mutations
