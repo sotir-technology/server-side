@@ -48,10 +48,10 @@
 
                                 <div class="flex flex-wrap justify-between my-5">
                                     <vs-checkbox v-model="checkbox_remember_me" class="mb-3">Remember Me</vs-checkbox>
-                                    <router-link to="/pages/forgot-password">Forgot Password?</router-link>
+                                    <router-link :to="{name:'pageForgotPassword'}">Forgot Password?</router-link>
                                 </div>
                                 <vs-button  type="border" @click="registerUser">Register</vs-button>
-                                <vs-button class="float-right" :disabled="!validateForm" to="/">Login</vs-button>
+                                <vs-button ref="loadableButton" id="button-with-loading" type="relief" vslor="primary" class="float-right vs-con-loading__container" :disabled="!validateForm" @click="login" >Login</vs-button>
 
                                 <vs-divider></vs-divider>
 
@@ -97,56 +97,58 @@
 export default {
     data() {
         return {
-            email: 'demo@demo.com',
-            password: 'demodemo',
+            email: 'name@churcha2x.com',
+            password: '12345',
             checkbox_remember_me: false
         }
     },
     computed: {
         validateForm() {
-            return !this.errors.any() && this.email != '' && this.password != '';
+            return !this.errors.any() && this.password != '' || this.email != ''
         },
     },
     methods: {
         login() {
+         this.startLoading();
             const payload = {
                 checkbox_remember_me: this.checkbox_remember_me,
                 userDetails: {
                     email: this.email,
                     password: this.password
                 },
-                notify: this.$vs.notify
+                notify: this.$vs.notify,
+                stopLoading: this.$vs.loading
             }
-            this.$store.dispatch('auth/loginAttempt', payload);
+            if(this.$store.dispatch('auth/loginAttempt', payload)) this.stopLoading();
         },
-
-        loginAuth0() {
-            if (this.$store.state.auth.isUserLoggedIn()) {
-                this.notifyAlreadyLogedIn();
-                return false
-            }
-            this.$auth.login({ target: this.$route.query.to });
-        },
-
-        // Google login
-        loginWithGoogle() {
-            this.$store.dispatch('auth/loginWithGoogle', {notify: this.$vs.notify})
-        },
-
-        // Facebook login
-        loginWithFacebook() {
-            this.$store.dispatch('auth/loginWithFacebook', {notify: this.$vs.notify})
-        },
-
-        // Twitter login
-        loginWithTwitter() {
-            this.$store.dispatch('auth/loginWithTwitter', {notify: this.$vs.notify})
-        },
-
-        // Github login
-        loginWithGithub() {
-            this.$store.dispatch('auth/loginWithGithub', {notify: this.$vs.notify})
-        },
+//
+//        loginAuth0() {
+//            if (this.$store.state.auth.isUserLoggedIn()) {
+//                this.notifyAlreadyLogedIn();
+//                return false
+//            }
+//            this.$auth.login({ target: this.$route.query.to });
+//        },
+//
+//        // Google login
+//        loginWithGoogle() {
+//            this.$store.dispatch('auth/loginWithGoogle', {notify: this.$vs.notify})
+//        },
+//
+//        // Facebook login
+//        loginWithFacebook() {
+//            this.$store.dispatch('auth/loginWithFacebook', {notify: this.$vs.notify})
+//        },
+//
+//        // Twitter login
+//        loginWithTwitter() {
+//            this.$store.dispatch('auth/loginWithTwitter', {notify: this.$vs.notify})
+//        },
+//
+//        // Github login
+//        loginWithGithub() {
+//            this.$store.dispatch('auth/loginWithGithub', {notify: this.$vs.notify})
+//        },
 
         notifyAlreadyLogedIn() {
             this.$vs.notify({
@@ -158,11 +160,21 @@ export default {
             });
         },
         registerUser() {
-            if(this.$store.state.auth.isUserLoggedIn()) {
+            if(this.$store.state.auth.isUserLoggedIn) {
                 this.notifyAlreadyLogedIn();
                 return false;
             }
-            this.$router.push('/church/register');
+            this.$router.push('/register');
+        },
+        startLoading(){
+            return  this.$vs.loading({
+                background: this.backgroundLoading,
+                color: this.colorLoading,
+                container: "#button-with-loading",
+                scale: 0.45
+            }) },
+        stopLoading(){
+            return this.$vs.loading.close("#button-with-loading > .con-vs-loading")
         }
     }
 }

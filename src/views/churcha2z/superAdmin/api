@@ -1,0 +1,66 @@
+[03:54, 9/17/2019] Revelation Nscteq: -UPDATE USER ACCOUNT WITH TOKEN
+
+url: http://api.churcha2z.org/user/update-acc/?ssk=server_side_key
+
+Data Required: 
+Return exact user data changed or edited and pass token alongside
+
+
+
+-UPDATE USER PASSWORD WITH TOKEN
+
+url: http://api.churcha2z.org/user/update-psw/?ssk=server_side_key
+
+Data Required: 
+{token: "3a5c123ad727caf93dfab497b97f67a7d1096ecc", pass1: '123456', pass2: '12345'};
+Note: pass2 is the old password, no hash. Pass new password as pass1
+Note: please check for password length, minimum is 5
+[14:06, 9/17/2019] Revelation Nscteq: 
+
+-REQUEST PASSWORD RESET
+
+url: http://api.churcha2z.org/user/request-psw-reset/?ssk=server_side_key
+
+Data Required: 
+{email: ‘user email address’}
+//An email will be sent to the person
+
+
+-VALIDATE TOKEN OF RESET PASSWORD
+url: http://api.churcha2z.org/user/forgot-psw/token_from_their_email/?ssk=server_side_key
+
+Data Required: 
+N/A
+Note:  Create a router to math with abc.com/account/reset/token_parameter
+Then pass the parameter to my router.
+Response:
+{email: “the user email”, newpass: “The new password”}
+
+
+-GET LIST OF SERVICES
+
+url: http://api.churcha2z.org/services/get/?ssk=server_side_key
+
+Data Required:
+N/A
+
+Respons:
+    "data": [
+        {
+            "s_id": 1,
+            "s_desc": "This is my first service description,\r\nchurch mng system",
+            "s_cost": "10500",
+            "s_status": true,
+            "createdAt": "2019-09-17T00:00:00.000Z",
+            "updatedAt": "2019-09-17T00:00:00.000Z"
+        },
+        {
+            "s_id": 2,
+            "s_desc": "This is my second service, this could be another service base",
+            "s_cost": "11000",
+            "s_status": true,
+            "createdAt": "2019-09-17T00:00:00.000Z",
+            "updatedAt": "2019-09-17T00:00:00.000Z"
+        }
+    ],
+Note: Could be array or object….handle it’s behavioral

@@ -77,7 +77,7 @@
                     :hidden-background="clickNotClose"
                     v-model="isFilterSidebarActive">
 
-                    <div class="p-6 filter-container">
+                    <div class="p-6 filter-containesr">
 
                         <!-- MULTI RANGE -->
                         <h6 class="font-bold mb-3">Multi Range</h6>

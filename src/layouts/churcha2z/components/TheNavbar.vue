@@ -133,17 +133,8 @@
 				<vs-dropdown vs-custom-content vs-trigger-click class="cursor-pointer">
 					<div class="con-img ml-3">
 						<img
-							v-if="activeUserImg.startsWith('http')"
-							key="onlineImg"
-							:src="activeUserImg"
-							alt="user-img"
-							width="40"
-							height="40"
-							class="rounded-full shadow-md cursor-pointer block" />
-						<img
-							v-else
 							key="localImg"
-							:src="require(`@/assets/images/portrait/small/${activeUserImg}`)"
+							:src="require(`@/assets/images/portrait/small/avatar-s-24.png`)"
 							alt="user-img"
 							width="40"
 							height="40"

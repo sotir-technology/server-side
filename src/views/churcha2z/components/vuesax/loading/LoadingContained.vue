@@ -30,18 +30,18 @@
 		</div>
 
 		<template slot="codeContainer">
-&lt;template&gt;
-  &lt;vs-button ref=&quot;loadableButton&quot; id=&quot;button-with-loading&quot; class=&quot;vs-con-loading__container&quot; @click=&quot;openLoadingContained&quot; type=&quot;relief&quot; vslor=&quot;primary&quot;&gt;
+<template>
+  <vs-button ref="loadableButton" id="button-with-loading" class="vs-con-loading__container" @click="openLoadingContained" type="relief" vslor="primary">
     Button with Loading
-  &lt;/vs-button&gt;
-  &lt;vs-button @click=&quot;openLoadingInDiv&quot; type=&quot;relief&quot; vslor=&quot;primary&quot;&gt;Div with Loading&lt;/vs-button&gt;
+  </vs-button>
+  <vs-button @click="openLoadingInDiv" type="relief" vslor="primary">Div with Loading</vs-button>
 
-  &lt;div class=&quot;contained-example-container&quot;&gt;
-    &lt;div id=&quot;div-with-loading&quot; class=&quot;vs-con-loading__container&quot;&gt;Load Me!&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
+  <div class="contained-example-container">
+    <div id="div-with-loading" class="vs-con-loading__container">Load Me!</div>
+  </div>
+</template>
 
-&lt;script&gt;
+<script>
 export default {
   data(){
     return {
@@ -54,11 +54,11 @@ export default {
       this.$vs.loading({
         background: this.backgroundLoading,
         color: this.colorLoading,
-        container: &quot;#button-with-loading&quot;,
+        container: "#button-with-loading",
         scale: 0.45
       })
-      setTimeout( ()=&gt; {
-        this.$vs.loading.close(&quot;#button-with-loading &gt; .con-vs-loading&quot;)
+      setTimeout( ()=> {
+        this.$vs.loading.close("#button-with-loading > .con-vs-loading")
       }, 3000);
     },
     openLoadingInDiv(){
@@ -66,13 +66,13 @@ export default {
         container: '#div-with-loading',
         scale: 0.6
       })
-      setTimeout( ()=&gt; {
-        this.$vs.loading.close('#div-with-loading &gt; .con-vs-loading')
+      setTimeout( ()=> {
+        this.$vs.loading.close('#div-with-loading > .con-vs-loading')
       }, 3000);
     },
   }
 }
-&lt;/script&gt;
+</script>
 		</template>
 
 	</vx-card>

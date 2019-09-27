@@ -12,6 +12,7 @@ import themeConfig from '@/../themeConfig.js'
 import colors from '@/../themeConfig.js'
 
 const state = {
+
     isSidebarActive: false ,
     breakpoint: null,
     sidebarWidth: "default",
@@ -32,16 +33,12 @@ const state = {
     starredPages: navbarSearchAndPinList.data.filter((page) => page.highlightAction),
     userRole: null,
 
-    userProfile: {
-      name: 'Account Name',
-      email: 'name@churcha2x.com',
-      phone: '08123456788',
-      password: '12345',
-      country: 'Account Location/Country',
-      state: 'State',
-      street: 'address/home',
-    },
-    
+
+    //LOGIN/REGISTER STATE
+    status: '',
+    msg:'',
+    reg_status:''
+
 }
 
 export default state

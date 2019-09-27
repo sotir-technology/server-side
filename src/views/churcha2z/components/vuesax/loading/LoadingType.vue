@@ -28,18 +28,18 @@
 		</div>
 
 		<template slot="codeContainer">
-&lt;template lang=&quot;html&quot;&gt;
-  &lt;div class=&quot;demo-alignment&quot;&gt;
-      &lt;div class=&quot;fill-row-loading&quot;&gt;
-        &lt;div :class=&quot;{&apos;activeLoading&apos;:activeLoading}&quot; @click=&quot;openLoading(type)&quot; v-for=&quot;type in types&quot; :id=&quot;[&grave;loading-${type}&grave;]&quot; class=&quot;vs-con-loading__container loading-example&quot;&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
+<template lang="html">
+  <div class="demo-alignment">
+      <div class="fill-row-loading">
+        <div :class="{&apos;activeLoading&apos;:activeLoading}" @click="openLoading(type)" v-for="type in types" :id="[`loading-${type}`]" class="vs-con-loading__container loading-example">
+        </div>
+      </div>
+  </div>
+</template>
 
-&lt;script&gt;
+<script>
 export default {
-  data:()=&gt;({
+  data:()=>({
     types:[
       &apos;default&apos;,
       &apos;point&apos;,
@@ -52,9 +52,9 @@ export default {
     activeLoading:false,
   }),
   mounted(){
-    this.types.forEach((type)=&gt;{
+    this.types.forEach((type)=>{
       this.$vs.loading({
-        container: &grave;#loading-${type}&grave;,
+        container: `#loading-${type}`,
         type,
         text:type
       })
@@ -66,16 +66,16 @@ export default {
       this.$vs.loading({
         type:type,
       })
-      setTimeout( ()=&gt; {
+      setTimeout( ()=> {
         this.activeLoading = false
         this.$vs.loading.close()
       }, 3000);
     },
   }
 }
-&lt;/script&gt;
+</script>
 
-&lt;style lang=&quot;scss&quot;&gt;
+<style lang="scss">
 .fill-row-loading {
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ export default {
     }
   }
 }
-&lt;/style&gt;
+</style>
 		</template>
 
 	</vx-card>

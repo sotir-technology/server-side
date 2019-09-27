@@ -1,133 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="591db621-15f5-4c85-a539-eb25e1ceea95" name="Default Changelist" comment="" />
+    <list default="true" id="591db621-15f5-4c85-a539-eb25e1ceea95" name="Default Changelist" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/pbjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/layouts/churcha2z/main/superAdmin.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/profile/Profile.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/profile/components/ItemGridView.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/profile/components/ItemListView.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/profile/profileSettings.vue" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/babel.config.js" afterPath="$PROJECT_DIR$/babel.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0b888796845684fa6336f84aff25f163.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0b888796845684fa6336f84aff25f163.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1328de337572956c10058ff1c55b7d36.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1328de337572956c10058ff1c55b7d36.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3abe0faa10bc434d89e3d719164df511.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3abe0faa10bc434d89e3d719164df511.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/49c57cf5a0ed6920bcbae23e09f6475b.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/49c57cf5a0ed6920bcbae23e09f6475b.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5037cae9b32635408e3ff4d49fa48f5d.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5037cae9b32635408e3ff4d49fa48f5d.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5b3235d38052c7426a63c95c5a438822.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5b3235d38052c7426a63c95c5a438822.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b49acbd24249c75179cef825d594beb.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b49acbd24249c75179cef825d594beb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b9293281690a3fe7cd86b5211085140.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7b9293281690a3fe7cd86b5211085140.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7c207fd00fecd8c2135b4751b06fece1.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7c207fd00fecd8c2135b4751b06fece1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/95019925c85e8e81ccf71c657fcd4715.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/95019925c85e8e81ccf71c657fcd4715.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b2ea59a5a438fb5de21123c27985e130.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/b2ea59a5a438fb5de21123c27985e130.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fd3dff154463ebb0563fd20008b91109.json" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/fd3dff154463ebb0563fd20008b91109.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/26c6491955b2fb0518323ff28a32108e.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/26c6491955b2fb0518323ff28a32108e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2de2989eaf262c1c6d9b01d8bc355437.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2de2989eaf262c1c6d9b01d8bc355437.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2fd462e40feb3426bed9d501ec6cf079.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/2fd462e40feb3426bed9d501ec6cf079.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/36dcac1e168e56059f66cabfb7ae20da.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/36dcac1e168e56059f66cabfb7ae20da.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/3d5f9f62d48ca3ce22ff48b8c8c68d8c.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/3d5f9f62d48ca3ce22ff48b8c8c68d8c.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/42ef5b64a15c532056a936453d8e5e03.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/42ef5b64a15c532056a936453d8e5e03.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/49b3715303739959db34d3f35a3103ee.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/49b3715303739959db34d3f35a3103ee.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5810f7ea7e06c9fb804ef2fa7dd499a2.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5810f7ea7e06c9fb804ef2fa7dd499a2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5bc9d9084f8fde7fe73e4e1d31f3c131.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5bc9d9084f8fde7fe73e4e1d31f3c131.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/634c3862a3d63aa4c6369f7abb0e520f.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/634c3862a3d63aa4c6369f7abb0e520f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6aea8d86707a2a5c2baca45719f335a9.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6aea8d86707a2a5c2baca45719f335a9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6bd935dafa312a3ee891562b87451de5.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6bd935dafa312a3ee891562b87451de5.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6c29b5d7071254dd6e0558c4791f454c.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6c29b5d7071254dd6e0558c4791f454c.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6c9924e2f89e539365c4b9ff4d3d3604.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6c9924e2f89e539365c4b9ff4d3d3604.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6dd4edae0c67f5a99952d742d705d340.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/6dd4edae0c67f5a99952d742d705d340.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8517dae096174b78461f28bbeb0ac2a8.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8517dae096174b78461f28bbeb0ac2a8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8bd9fbf562e8237278c0983e60360e89.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/8bd9fbf562e8237278c0983e60360e89.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/93d1441f66dac75512a2d775e1907843.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/93d1441f66dac75512a2d775e1907843.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/951c4c8a37830847dcb7ef2434995f36.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/951c4c8a37830847dcb7ef2434995f36.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/a95cfd9215d8268d767b17efe16eeb43.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/a95cfd9215d8268d767b17efe16eeb43.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/aa0c5344734fe0853f43cb65a2d1422b.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/aa0c5344734fe0853f43cb65a2d1422b.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/abefffe70e2290eb74c6d4bd3bc33266.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/abefffe70e2290eb74c6d4bd3bc33266.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b4176cc0b956fb150873be81a504bd4e.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b4176cc0b956fb150873be81a504bd4e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/be57b5fb8267b35312ad3f246927d565.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/be57b5fb8267b35312ad3f246927d565.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cf94378c53b1e9e4a02f21b469ab2627.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/cf94378c53b1e9e4a02f21b469ab2627.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/db5bc61bac444ce8e3efeb3f000c2415.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/db5bc61bac444ce8e3efeb3f000c2415.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/df0ff5c0e2dfc20ff8e7ae0a241204ab.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/df0ff5c0e2dfc20ff8e7ae0a241204ab.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e6447cfe86242ecc3c20ad458b9e5b87.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e6447cfe86242ecc3c20ad458b9e5b87.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f69e72915d37386a088b373cb08e37b8.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f69e72915d37386a088b373cb08e37b8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f951df3e6a77a3f3333df5047c6102c4.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f951df3e6a77a3f3333df5047c6102c4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fe897559f7c80b8e9477cf4a614a35d1.json" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/fe897559f7c80b8e9477cf4a614a35d1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/firebase/firebaseConfig.js" afterPath="$PROJECT_DIR$/src/firebase/firebaseConfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/VxSidebar.vue" afterPath="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/VxSidebar.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/superAdminSideBar.js" afterPath="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/superAdminSideBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/churcha2z/main/ChurchLayout.vue" afterPath="$PROJECT_DIR$/src/layouts/churcha2z/main/ChurchLayout.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/components/TheFooter.vue" afterPath="$PROJECT_DIR$/src/layouts/components/TheFooter.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/components/TheNavbar.vue" afterPath="$PROJECT_DIR$/src/layouts/components/TheNavbar.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/auth/moduleAuthActions.js" afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthActions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/auth/moduleAuthMutations.js" afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthMutations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/auth/moduleAuthState.js" afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthState.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/store.js" afterPath="$PROJECT_DIR$/src/store/store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingContained.vue" afterPath="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingContained.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingDefault.vue" afterPath="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingDefault.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingType.vue" afterPath="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingType.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/churcha2z/pages/Login.vue" afterPath="$PROJECT_DIR$/src/views/churcha2z/pages/Login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/churcha2z/pages/Register.vue" afterPath="$PROJECT_DIR$/src/views/churcha2z/pages/Register.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/churcha2z/superAdmin/Profile.vue" afterPath="$PROJECT_DIR$/src/views/churcha2z/superAdmin/Profile.vue" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="48" column="88" lean-forward="true" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#914#935#0" expanded="true" />
-                <element signature="e#45298#89329#0" />
-                <element signature="e#45307#89399#0" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/sidebarItems.js">
+      <file leaf-file-name="Profile.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/superAdmin/Profile.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1206#1501#0" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="227" column="26" lean-forward="true" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/button/Button.vue">
+      <file leaf-file-name="api" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/superAdmin/api">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/DashboardAnalytics.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#14057#14099#0" expanded="true" />
-                <element signature="e#14364#18174#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/ChurchIndex.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#style#0;n#vs-button#0;n#div#1;n#vx-card#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#6902#6944#0" expanded="true" />
-                <element signature="e#14652#14869#0" />
-                <element signature="e#14891#15727#0" />
-                <element signature="e#15745#16503#0" />
-                <element signature="e#16521#17437#0" />
-                <element signature="e#17455#18143#0" />
-                <element signature="e#9858#10031#0" />
-                <element signature="e#10061#10234#0" />
-                <element signature="e#10257#10625#0" />
-                <element signature="e#10643#11131#0" />
-                <element signature="e#11145#11177#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/Branches.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/churcha2z/ui-elements/card/CardBasic.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="76" column="26" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="76" selection-end-column="26" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#9;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#11;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/churchsidebar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,15 +137,44 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>images</find>
-      <find>popul</find>
-      <find>starredPagesLimited</find>
-      <find>todo</find>
       <find>thumb</find>
       <find>icon:'</find>
       <find>btnSidebarToggler</find>
       <find>jumbo</find>
+      <find>vuex</find>
+      <find>mysql</find>
+      <find>mysql_</find>
+      <find>conms</find>
+      <find>profi</find>
+      <find>ecomm</find>
+      <find>axios</find>
+      <find>items</find>
+      <find>ais-</find>
+      <find>profile</find>
+      <find>profile.</find>
+      <find>default</find>
+      <find>more ser</find>
+      <find>main/C</find>
+      <find>state</find>
+      <find>_</find>
+      <find>card</find>
+      <find>store</find>
+      <find>cardD</find>
+      <find>match</find>
+      <find>JSON</find>
+      <find>user_displayName</find>
+      <find>JSON.</find>
+      <find>&amp;grave;</find>
+      <find>containerx</find>
+      <find>&amp;quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>mysqli</replace>
+      <replace>mysqli_</replace>
+      <replace>conn</replace>
+      <replace>`</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,12 +182,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/store/auth/moduleAuthState.js" />
         <option value="$USER_HOME$/PhpstormProjects/html_file/detail.html" />
         <option value="$USER_HOME$/PhpstormProjects/html_file/detailr.html" />
-        <option value="$PROJECT_DIR$/src/views/churcha2z/pages/Login.vue" />
-        <option value="$PROJECT_DIR$/src/views/churcha2z/pages/Register.vue" />
-        <option value="$PROJECT_DIR$/src/layouts/churcha2z/main/Main.vue" />
         <option value="$PROJECT_DIR$/src/layouts/components/vx-sidebar/churchsidebar.js" />
         <option value="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/churchsidebar.js" />
         <option value="$PROJECT_DIR$/src/layouts/churcha2z/components/TheNavbar.vue" />
@@ -172,13 +191,54 @@
         <option value="$PROJECT_DIR$/src/layouts/churcha2z/main/ChurchLayout.vue" />
         <option value="$PROJECT_DIR$/src/views/churcha2z/ui-elements/data-list/AddNewDataSidebar.vue" />
         <option value="$PROJECT_DIR$/src/views/churcha2z/DashboardAnalytics.vue" />
-        <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/views/churcha2z/ChurchIndex.vue" />
         <option value="$PROJECT_DIR$/src/views/churcha2z/Branches.vue" />
         <option value="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/sidebarItems.js" />
+        <option value="$PROJECT_DIR$/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/../../codecanyon-17085987-supercom-online-shopping-ecommerce-cart/Files/function.php" />
+        <option value="$PROJECT_DIR$/../../codecanyon-17085987-supercom-online-shopping-ecommerce-cart/Files/include-global.php" />
+        <option value="$PROJECT_DIR$/../../codecanyon-17085987-supercom-online-shopping-ecommerce-cart/Files/include-header.php" />
+        <option value="$PROJECT_DIR$/src/store/state.js" />
+        <option value="$PROJECT_DIR$/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/src/views/Callback.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/layouts/churcha2z/main/Main.vue" />
+        <option value="$PROJECT_DIR$/src/layouts/churcha2z/main/superAdmin.vue" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/superAdmin/Packages.vue" />
+        <option value="$PROJECT_DIR$/src/views/apps/eCommerce/ECommerceShop.vue" />
+        <option value="$PROJECT_DIR$/src/views/ui-elements/not.php" />
+        <option value="$PROJECT_DIR$/src/store/auth/moduleAuthState.js" />
+        <option value="$PROJECT_DIR$/src/store/auth/moduleAuthMutations.js" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/superAdmin/Profile.vue" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/pages/Register.vue" />
+        <option value="$PROJECT_DIR$/src/store/auth/moduleAuthActions.js" />
+        <option value="$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/superAdminSideBar.js" />
+        <option value="$PROJECT_DIR$/src/router.js" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingContained.vue" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingDefault.vue" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingType.vue" />
+        <option value="$PROJECT_DIR$/src/views/churcha2z/pages/Login.vue" />
+        <option value="$PROJECT_DIR$/src/layouts/churcha2z/main/superAdminLayout.vue" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
@@ -186,7 +246,17 @@
     <option name="height" value="688" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -195,17 +265,52 @@
           <expand>
             <path>
               <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server-side" type="462c0819:PsiDirectoryNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server-side" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="churcha2z_components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="churcha2z_components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="churcha2z" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="server-side" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server-side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="churcha2z" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="superAdmin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -214,7 +319,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/churcha2z" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -222,12 +327,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\GIT\server-side\src\layouts\churcha2z\components\vx-sidebar" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GIT\server-side\src\views\churcha2z\superAdmin" />
       <recent name="C:\xampp\htdocs\GIT\server-side\src\views\churcha2z" />
       <recent name="C:\xampp\htdocs\GIT\server-side\src\churcha2z_components" />
       <recent name="C:\xampp\htdocs\GIT\server-side\src\layouts\churcha2z" />
@@ -245,6 +353,9 @@
       </list>
     </option>
   </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -258,499 +369,439 @@
       <workItem from="1567377041327" duration="4601000" />
       <workItem from="1567412143452" duration="13398000" />
       <workItem from="1567595112965" duration="10698000" />
-      <workItem from="1567630233922" duration="27887000" />
+      <workItem from="1567630233922" duration="39115000" />
+      <workItem from="1567797379877" duration="680000" />
+      <workItem from="1567841285003" duration="42493000" />
+      <workItem from="1568024749316" duration="9872000" />
+      <workItem from="1568058068297" duration="8886000" />
+      <workItem from="1568079932779" duration="117000" />
+      <workItem from="1568145746696" duration="5779000" />
+      <workItem from="1568239807523" duration="2259000" />
+      <workItem from="1568242768145" duration="2473000" />
+      <workItem from="1568275824615" duration="698000" />
+      <workItem from="1568276758488" duration="27270000" />
+      <workItem from="1568366739076" duration="15495000" />
+      <workItem from="1568407611541" duration="671000" />
+      <workItem from="1568562177480" duration="7460000" />
+      <workItem from="1568639192043" duration="5389000" />
+      <workItem from="1568983511300" duration="695000" />
+      <workItem from="1568984764192" duration="183000" />
+      <workItem from="1568985289701" duration="1384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56584000" />
+    <option name="totallyTimeSpent" value="199616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.32935154" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28517398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.32935154" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32840723" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/firebase/firebaseConfig.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i18n/i18n.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth_config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue.config.js">
+    <entry file="file://$PROJECT_DIR$/src/components/FeatherIcon.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuthActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuthState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/customizer/TheCustomizer.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/PhpstormProjects/html_file/detailr.html" />
-    <entry file="file://$PROJECT_DIR$/src/churcha2z_components/components/vx-card/VxCard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/VxSidebarItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/VxSidebar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="42" column="103" selection-start-line="42" selection-start-column="103" selection-end-line="42" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PhpstormProjects/html_file/news-general-one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="147" selection-end-column="17" />
-          <folding>
-            <element signature="n#header#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PhpstormProjects/html_file/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6744">
-          <caret line="323" column="44" selection-start-line="323" selection-start-column="44" selection-end-line="357" selection-end-column="50" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#aside#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/auth/authService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/DashboardECommerce.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/pages/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="53" column="89" selection-start-line="53" selection-start-column="89" selection-end-line="53" selection-end-column="89" />
-          <folding>
-            <element signature="n#vs-input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#vx-card#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#vs-input#1;n#div#0;n#div#1;n#div#0;n#div#0;n#vx-card#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/pages/Register.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/full-page/FullPage.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/components/vx-sidebar/sidebarItems.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1206#1501#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/churcha2z_components/components/VxTour.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2236">
-          <folding>
-            <element signature="e#3643#4083#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/main/Main.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="171" column="13" lean-forward="true" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-            <element signature="n#the-customizer#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#4403#4483#0" expanded="true" />
-            <element signature="e#6543#6861#0" />
-            <element signature="e#6877#8098#0" />
-            <element signature="e#9387#9508#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vuesax/dist/vuesax.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="10574" column="30" lean-forward="true" selection-start-line="10574" selection-start-column="30" selection-end-line="10574" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/ui-elements/data-list/thumb-view/DataListThumbView.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#vs-table#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#template#0;n#vs-table#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#template#1;n#vs-table#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#4997#5137#0" />
-            <element signature="e#5287#6092#0" />
-            <element signature="n#style#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/TheNavbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="17" column="125" selection-start-line="17" selection-start-column="125" selection-end-line="17" selection-end-column="125" />
-          <folding>
-            <element signature="n#vs-dropdown#0;n#vs-navbar#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#0;n#vs-navbar#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#13497#13593#0" />
-            <element signature="e#13800#14755#0" />
-            <element signature="e#17138#19898#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vx-auto-suggest/VxAutoSuggest.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/getters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="-340">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1539">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+    <entry file="file://$PROJECT_DIR$/src/views/components/vuesax/loading/Loading.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#652#697#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-34">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
+    <entry file="file://$PROJECT_DIR$/src/views/components/vuesax/loading/LoadingContained.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-843">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="72" lean-forward="true" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/components/TheNavbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="307" column="10" lean-forward="true" selection-start-line="307" selection-start-column="10" selection-end-line="307" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/ui-elements/data-list/AddNewDataSidebar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/main/ChurchLayout.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-          <folding>
-            <element signature="n#the-customizer#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#transition#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#0;n#transition#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#vs-dropdown#0;n#div#0;n#transition#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#vs-dropdown-menu#0;n#vs-dropdown#0;n#div#0;n#transition#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#back-to-top#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#4020#4100#0" expanded="true" />
-            <element signature="e#5883#6116#0" />
-            <element signature="e#6160#6478#0" />
-            <element signature="e#6494#7715#0" />
-            <element signature="e#7730#8986#0" />
-            <element signature="e#9141#9366#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/churchsidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/button/ButtonGradient.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/button/ButtonIcon.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/button/ButtonIconOnly.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="25" column="108" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="48" column="88" lean-forward="true" selection-start-line="48" selection-start-column="88" selection-end-line="48" selection-end-column="88" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#914#935#0" expanded="true" />
-            <element signature="e#45298#89329#0" />
-            <element signature="e#45307#89399#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/button/Button.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/churcha2z/ChurchIndex.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#style#0;n#vs-button#0;n#div#1;n#vx-card#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#6902#6944#0" expanded="true" />
-            <element signature="e#14652#14869#0" />
-            <element signature="e#14891#15727#0" />
-            <element signature="e#15745#16503#0" />
-            <element signature="e#16521#17437#0" />
-            <element signature="e#17455#18143#0" />
-            <element signature="e#9858#10031#0" />
-            <element signature="e#10061#10234#0" />
-            <element signature="e#10257#10625#0" />
-            <element signature="e#10643#11131#0" />
-            <element signature="e#11145#11177#0" />
-          </folding>
+        <state relative-caret-position="124">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/Branches.vue">
+    <entry file="file://$PROJECT_DIR$/src/globalComponents.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/churcha2z/DashboardAnalytics.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#14057#14099#0" expanded="true" />
-            <element signature="e#14364#18174#0" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/main/ChurchLayout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="68" lean-forward="false" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/pages/KnowledgeBase.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="20" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/ui-elements/card/CardBasic.vue">
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/apps/eCommerce/ECommerceShop.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="76" column="26" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#11;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/pages/Profile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/superAdmin/Packages.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/apps/eCommerce/ECommerceShop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="205" column="48" lean-forward="false" selection-start-line="205" selection-start-column="48" selection-end-line="205" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/pages/KnowledgeBaseCategory.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="231" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/pages/KnowledgeBase.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/auth/authService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="105" column="50" lean-forward="false" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Callback.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/profile/ProfileLayout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/profile/profileSettings.vue" />
+    <entry file="file://$PROJECT_DIR$/src/views/profile/Profile.vue" />
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/superAdmin/profileSettings.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/main/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/sidebarItems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1206#1501#0" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ui-elements/not.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/churcha2z_components/components/vx-card/VxCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/ui-elements/card/CardBasic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="433" column="14" lean-forward="true" selection-start-line="423" selection-start-column="11" selection-end-line="433" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/pages/Register.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="177" column="45" lean-forward="false" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuthMutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/superAdminSideBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuthActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="81" column="40" lean-forward="false" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuthGetters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="92" lean-forward="true" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/TheNavbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="265" column="57" lean-forward="true" selection-start-line="265" selection-start-column="57" selection-end-line="265" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingBackground.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-904">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingContained.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489">
+          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/pages/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="179" column="1" lean-forward="true" selection-start-line="179" selection-start-column="1" selection-end-line="179" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingDefault.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" column="75" lean-forward="false" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/tabs/TabsDefault.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/loading/LoadingType.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/components/vuesax/tabs/Tabs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/auth/moduleAuthState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/components/vx-sidebar/VxSidebar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/churcha2z/main/superAdminLayout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2975">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/superAdmin/Profile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="227" column="26" lean-forward="true" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/churcha2z/superAdmin/api">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -25,8 +25,12 @@ import '../themeConfig.js'
 // Algolia - Instant Search
 import InstantSearch from 'vue-instantsearch';
 Vue.use(InstantSearch);
-// Firebase
-import '@/firebase/firebaseConfig'
+
+
+// // Firebase
+// import '@/firebase/firebaseConfig'
+
+
 // Auth0 Plugin
 import AuthPlugin from "./plugins/auth";
 Vue.use(AuthPlugin);
@@ -70,11 +74,15 @@ import 'prismjs'
 import 'prismjs/themes/prism-tomorrow.css'
 
 
+
+
+
 // Feather font icon
 require('./assets/css/iconfont.css')
 
 
 Vue.config.productionTip = false
+
 
 new Vue({
     router,

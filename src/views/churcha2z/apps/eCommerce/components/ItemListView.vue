@@ -25,9 +25,9 @@
                 <div class="vx-col sm:w-1/2">
                     <div class="p-4 pt-6">
                         <slot name="item-meta">
-                            <h6 class="item-name font-semibold mb-1">{{ item.name }}</h6>
+                            <h6 class="item-name font-semibold mb-1">{{ item.s_title }}</h6>
                             <p class="text-sm mb-4 cursor-pointer">By <span class="text-primary font-semibold">{{ item.brand }}</span></p>
-                            <p class="item-description text-sm">{{ item.description }}</p>
+                            <p class="item-description text-sm">{{ item.s_desc }}</p>
                         </slot>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         </div>
 
                         <div class="my-6">
-                            <h5 class="font-bold text-center">${{ item.price }}</h5>
+                            <h5 class="font-bold text-center">${{ item.s_cost }}</h5>
                             <span class="text-grey flex items-start justify-center mt-1" v-if="item.free_shipping">
                                 <feather-icon icon="ShoppingCartIcon" svgClasses="w-4 h-4" />
                                 <span class="text-sm ml-2">Free Shipping</span>
